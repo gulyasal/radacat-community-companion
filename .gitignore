@@ -1,0 +1,33 @@
+# Local device identities, messages, locations and diagnostics
+settings.json
+conversation.json
+logs/
+*.jsonl
+*report*.txt
+# Builds and signing material
+build/
+dist/
+*.spec
+tools/
+.venv/
+__pycache__/
+*.pyc
+*.apk
+*.idsig
+*.jar
+*.keystore
+*.jks
+*.ab
+*.db
+*.tar
+*.zip
+*password*
+.env*
+local.properties
+*.clixml
+# Vendor analysis must never enter this repository
+decompiled/
+*extracted*/
+apk-strings.txt
+ble-inspection*.json
+ble-notifications*.json
